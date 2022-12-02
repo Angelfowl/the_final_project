@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>The Jungle Cook</title>
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+  <body>
+    <nav>
+      <div class="logo">
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          width="225"
+          height="55"
+          viewBox="0 0 225 55"
+        >
+          <g id="Group_1" data-name="Group 1" transform="translate(-50 -38)">
+            <circle
+              id="Ellipse_1"
+              data-name="Ellipse 1"
+              cx="16"
+              cy="16"
+              r="16"
+              transform="translate(52 38)"
+              fill="#c7eae4"
+            />
+            <circle
+              id="Ellipse_2"
+              data-name="Ellipse 2"
+              cx="15"
+              cy="15"
+              r="15"
+              transform="translate(76 54)"
+              fill="#ffd972"
+            />
+            <circle
+              id="Ellipse_3"
+              data-name="Ellipse 3"
+              cx="27"
+              cy="27"
+              r="27"
+              transform="translate(103 39)"
+              fill="#a7e8bd"
+            />
+            <circle
+              id="Ellipse_4"
+              data-name="Ellipse 4"
+              cx="12"
+              cy="12"
+              r="12"
+              transform="translate(185 57)"
+              fill="#efa7a7"
+            />
+            <text
+              id="The_Jungle_Cook"
+              data-name="The Jungle Cook"
+              transform="translate(50 74)"
+              font-size="25"
+              font-family="Caveat-Regular, Caveat"
+              letter-spacing="0.1em"
+            >
+              <tspan x="0" y="0">The Jungle Cook</tspan>
+            </text>
+          </g>
+        </svg>
+      </div>
+      <button class="button-three" aria-controls="primary-navigation">
+        <svg
+          stroke="var(--button-color)"
+          class="hamburger"
+          fill="none"
+          viewbox="-10 -10 120 120"
+          width="50px"
+        >
+          <path
+            class="line"
+            stroke-width="10"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            d="m 20 40 h 60 a 1 1 0 0 1 0 20 h -60 a 1 1 0 0 1 0 -40 h 30 v 70"
+          ></path>
+        </svg>
+      </button>
+      <div class="nav-menu">
+        <div class="links">
+          <a href="#home">Home</a>
+          <a href="#browse">Browse</a>
+          <a href="#create">Create Recipe</a>
+        </div>
+        <div class="log">
+        <div class="log-in" id="log-in">
+          <a href="#login">Login</a>
+          </div>
+          <div class="signOut" id="log-in" onclick="signOut()">
+            Sign Out
+        </div>
+      </div>
+    </nav>
+
+    <div id="app"></div>
+
+    <footer>
+      <div class="copy">Copyright © 2019 The Jungle Cook</div>
+      <div class="centerLinks">
+        <a href="#">Login</a>
+        <a href="#">Recipes by Category</a>
+        <a href="#">Privacy and Copyright</a>
+        <a href="#">Create Recipe</a>
+        <a href="#">Your Recipes</a>
+      </div>
+      <div class="social">
+        <svg viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
+          <path
+            d="m75 512h167v-182h-60v-60h60v-75c0-41.355469 33.644531-75 75-75h75v60h-60c-16.542969 0-30 13.457031-30 30v60h87.292969l-10 60h-77.292969v182h135c41.355469 0 75-33.644531 75-75v-362c0-41.355469-33.644531-75-75-75h-362c-41.355469 0-75 33.644531-75 75v362c0 41.355469 33.644531 75 75 75zm-45-437c0-24.8125 20.1875-45 45-45h362c24.8125 0 45 20.1875 45 45v362c0 24.8125-20.1875 45-45 45h-105v-122h72.707031l20-120h-92.707031v-30h90v-120h-105c-57.898438 0-105 47.101562-105 105v45h-60v120h60v122h-137c-24.8125 0-45-20.1875-45-45zm0 0"
+          />
+        </svg>
+        <svg
+          version="1.1"
+          id="Capa_1"
+          xmlns="http://www.w3.org/2000/svg"
+          xmlns:xlink="http://www.w3.org/1999/xlink"
+          x="0px"
+          y="0px"
+          viewBox="0 0 512 512"
+          style="enable-background: new 0 0 512 512"
+          xml:space="preserve"
+        >
+          <g>
+            <g>
+              <path
+                d="M352,0H160C71.648,0,0,71.648,0,160v192c0,88.352,71.648,160,160,160h192c88.352,0,160-71.648,160-160V160
+			C512,71.648,440.352,0,352,0z M464,352c0,61.76-50.24,112-112,112H160c-61.76,0-112-50.24-112-112V160C48,98.24,98.24,48,160,48
+			h192c61.76,0,112,50.24,112,112V352z"
+              />
+            </g>
+          </g>
+          <g>
+            <g>
+              <path
+                d="M256,128c-70.688,0-128,57.312-128,128s57.312,128,128,128s128-57.312,128-128S326.688,128,256,128z M256,336
+			c-44.096,0-80-35.904-80-80c0-44.128,35.904-80,80-80s80,35.872,80,80C336,300.096,300.096,336,256,336z"
+              />
+            </g>
+          </g>
+          <g>
+            <g>
+              <circle cx="393.6" cy="118.4" r="17.056" />
+            </g>
+          </g>
+          <g></g>
+          <g></g>
+          <g></g>
+          <g></g>
+          <g></g>
+          <g></g>
+          <g></g>
+          <g></g>
+          <g></g>
+          <g></g>
+          <g></g>
+          <g></g>
+          <g></g>
+          <g></g>
+          <g></g>
+        </svg>
+      </div>
+    </footer>
+    <!-- update the version number as needed -->
+    <script defer src="/__/firebase/9.14.0/firebase-app-compat.js"></script>
+    <!-- include only the Firebase features as you need -->
+    <script defer src="/__/firebase/9.14.0/firebase-auth-compat.js"></script>
+    <script
+      defer
+      src="/__/firebase/9.14.0/firebase-database-compat.js"
+    ></script>
+    <script
+      defer
+      src="/__/firebase/9.14.0/firebase-firestore-compat.js"
+    ></script>
+    <script
+      defer
+      src="/__/firebase/9.14.0/firebase-functions-compat.js"
+    ></script>
+    <script
+      defer
+      src="/__/firebase/9.14.0/firebase-messaging-compat.js"
+    ></script>
+    <script defer src="/__/firebase/9.14.0/firebase-storage-compat.js"></script>
+    <script
+      defer
+      src="/__/firebase/9.14.0/firebase-analytics-compat.js"
+    ></script>
+    <script
+      defer
+      src="/__/firebase/9.14.0/firebase-remote-config-compat.js"
+    ></script>
+    <!-- 
+      initialize the SDK after all desired features are loaded, set useEmulator to false
+      to avoid connecting the SDK to running emulators.
+    -->
+    <script defer src="/__/firebase/init.js?useEmulator=true"></script>
+    <script src="lib/jquery-3.6.1.min.js"></script>
+    <script src="app/app.js"></script>
+  </body>
+</html>

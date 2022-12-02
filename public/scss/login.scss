@@ -1,0 +1,103 @@
+.login {
+    width: 100%;
+    min-height: 800px;
+    background-color: #FFD972;
+
+    .login-wrapper {
+        width: 710px;
+        height: 740px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+       
+        margin: 0 auto;
+
+        .left-log {
+            width: 227px;
+            height: 468px;
+            // background-color: palevioletred;
+            padding-top: 91px;
+            padding-left: 10px;
+
+            h2 {
+                font-family: LatoB;
+                font-size: 30px;
+                letter-spacing: 3px;
+                margin-bottom: 50px;
+            }
+
+            input {
+                width: 207px;
+                height: 25px;
+                background: none;
+                border: none;
+                border-bottom: 3px solid black;
+                margin-bottom: 50px;
+
+                font-family: LatoR;
+                font-size: 12px;
+            }
+
+            #logBtn {
+                width: 209px;
+                height: 52px;
+                background-color: #FFD972;
+                border-radius: 26px;
+                margin-right: 50px;
+                padding-top: 8px;
+                text-align: center;
+                box-shadow: 0px 5px 5px gray;
+                cursor: pointer;
+                font-family: caveatR;
+                font-size: 25px;
+            }
+
+        }
+
+        .right-signup {
+            // background-color: blueviolet;
+            width: 227px;
+            height: 468px;
+            padding-left: 10px;
+
+            h6 {
+                font-family: LatoI;
+                font-size: 12px;
+                font-style: italic;
+            }
+
+            h2 {
+                font-family: LatoB;
+                font-size: 30px;
+                letter-spacing: 3px;
+                margin-bottom: 50px;
+            }
+
+            input {
+                width: 207px;
+                height: 25px;
+                background: none;
+                border: none;
+                border-bottom: 3px solid black;
+                margin-bottom: 50px;
+
+                font-family: LatoR;
+                font-size: 12px;
+            }
+
+            #signBtn {
+                width: 209px;
+                height: 52px;
+                background-color: #FFD972;
+                border-radius: 26px;
+                margin-right: 50px;
+                padding-top: 8px;
+                text-align: center;
+                box-shadow: 0px 5px 5px gray;
+                cursor: pointer;
+                font-family: caveatR;
+                font-size: 25px;
+            }
+        }
+    }
+}

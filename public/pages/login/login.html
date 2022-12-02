@@ -1,0 +1,40 @@
+<section class="login">
+  <div class="login-wrapper">
+    <div class="left-log">
+      <h2>Login Here!</h2>
+
+      <input type="email" id="log-email" placeholder="Email address..." />
+      <input type="password" id="log-pw" placeholder="Password..." />
+
+      <input
+        type="submit"
+        name="login"
+        value="Login"
+        id="logBtn"
+        onclick="login()"
+      />
+    </div>
+    <div class="right-signup">
+      <h6>don’t have an account?</h6>
+      <h2>Sign Up!</h2>
+
+      <input type="text" class="fName" id="fName" placeholder="First Name..." />
+      <input type="text" class="lName" id="lName" placeholder="Last Name..." />
+      <input
+        type="email"
+        class="email"
+        id="email"
+        placeholder="Email Address..."
+      />
+      <input type="password" class="pw" id="pw" placeholder="Password..." />
+
+      <input
+        type="submit"
+        value="Sign Up"
+        onclick="createAccount()"
+        name="sign up"
+        id="signBtn"
+      />
+    </div>
+  </div>
+</section>
